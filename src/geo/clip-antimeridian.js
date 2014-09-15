@@ -3,7 +3,7 @@ import "../math/abs";
 import "../math/trigonometry";
 import "clip";
 
-var d3_geo_clipAntimeridian = d3_geo_clip(
+d3.geo.clipAntimeridian = d3_geo_clip(
     d3_true,
     d3_geo_clipAntimeridianLine,
     d3_geo_clipAntimeridianInterpolate,
