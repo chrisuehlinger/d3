@@ -2913,6 +2913,9 @@
   d3.geo.rotate = function(δλ, δφ, δγ, sink) {
     var cosδφ = Math.cos(δφ), sinδφ = Math.sin(δφ), cosδγ = Math.cos(δγ), sinδγ = Math.sin(δγ);
     return {
+      sphere: function() {
+        sink.sphere();
+      },
       polygonStart: function() {
         sink.polygonStart();
       },
