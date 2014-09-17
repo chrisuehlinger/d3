@@ -1,8 +1,7 @@
 import "../math/trigonometry";
-import "cartesian";
 import "geo";
 import "rotation";
-import "spherical";
+import "circle-interpolate";
 
 d3.geo.circle = function() {
   var origin = [0, 0],
